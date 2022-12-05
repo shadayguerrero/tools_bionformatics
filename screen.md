@@ -61,9 +61,15 @@ Las screen permaneran activas hasta que las terminemos, o que se reinicie el ser
 
 ~~~
 (base) shaday@betterlabub:~$ screen -r temporal
-There are screens on:
-	563908.temporal	(12/05/2022 11:07:23 AM)	(Detached)
-	36490.jupyter	(11/18/2022 08:36:54 AM)	(Detached)
-2 Sockets in /run/screen/S-shaday.
+(TDA) shaday@betterlabub:~/GIT$ exit
+[screen is terminating]
+(base) shaday@betterlabub:~$ 
+
+~~~
+~~~
+(base) shaday@betterlabub:~$ screen -ls
+There is a screen on:
+	36490.jupyter	(11/18/2022 08:36:55 AM)	(Detached)
+1 Socket in /run/screen/S-shaday.
 (base) shaday@betterlabub:~$ 
 ~~~
